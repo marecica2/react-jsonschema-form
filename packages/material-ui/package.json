@@ -1,5 +1,5 @@
 {
-  "name": "@rjsf/material-ui",
+  "name": "@mballa/rjsf-material-ui",
   "version": "2.4.0",
   "main": "dist/index.js",
   "module": "dist/material-ui.esm.js",
@@ -16,7 +16,7 @@
   "peerDependencies": {
     "@material-ui/core": "^4.2.0",
     "@material-ui/icons": "^4.2.1",
-    "@rjsf/core": "^2.0.0",
+    "@mballa/rjsf-core": "^2.0.0",
     "react": ">=16"
   },
   "devDependencies": {
