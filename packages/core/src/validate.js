@@ -204,6 +204,7 @@ export default function validateFormData(
 
   let validationError = null;
   try {
+    console.log('aaaa');
     ajv.validate(schema, formData);
   } catch (err) {
     validationError = err;
@@ -270,6 +271,7 @@ export default function validateFormData(
  */
 export function isValid(schema, data) {
   try {
+    console.log('bbbb');
     return ajv.validate(schema, data);
   } catch (e) {
     return false;
