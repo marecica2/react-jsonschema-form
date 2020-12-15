@@ -1,6 +1,6 @@
 {
   "name": "@mballa/rjsf-material-ui",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "main": "dist/index.js",
   "module": "dist/material-ui.esm.js",
   "typings": "dist/index.d.ts",
